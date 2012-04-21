@@ -1,3 +1,88 @@
 // Place all the styles related to the home controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+html {
+	margin: 0; 
+	padding: 0;
+}
+/* Main Background Color */
+body {
+    background-color: #666;
+}
+
+/* Page Header */
+#Header {
+    font-weight: normal;
+    background-color: #666;
+	font-size: 60pt;
+	padding: 0;
+	width: 800px;
+	margin: 0 auto;
+}
+
+/* Navigation Bars */
+ul#top-nav-bar {
+    background-color: #333399;
+    color: #FFF;
+    list-style-type: none; 
+	font-size: 24px;
+	text-decoration: none;
+	width: 800px;
+	margin-left: auto;
+	margin-right: auto;
+}
+#top-nav-bar li {
+    display: inline-block;
+    margin-right: 45px;
+}
+li#lastchild {
+    margin: 0;
+}
+#top-nav-bar a:hover {
+    background-color: #3366CC;
+    color: #FFF;
+}
+/* Main Text */
+div.main {
+    background-color: #3366CC; 
+}
+
+/* Login Box */
+div.form {
+	background-color: #3366CC;
+	margin-left: auto;
+    margin-right: auto;
+}
+
+/* Modify link colors */
+a:link {
+	text-decoration: none;
+	color: #FFF;
+}
+a:visited {
+    text-decoration: none;
+    color: #0000FF;
+}
+a:hover {
+    text-decoration: none;
+    color: #0000FF;
+}
+
+#footer {
+	position: absolute; 
+	bottom: 0;  
+	height: 31px;
+	width: 100%;
+	text-align: center;  
+	margin: 0; 
+	padding: 0;
+}
+#footer2 {
+    position: relative; 
+    bottom: 0;  
+    height: 31px;
+    width: 100%;
+    text-align: right;  
+    margin: 0; 
+    padding: 0;
+}

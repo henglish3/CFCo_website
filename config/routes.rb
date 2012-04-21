@@ -1,5 +1,19 @@
 ClementsFenceCo::Application.routes.draw do
+  get "gallery/Gallery"
+
+  get "faq/FAQ"
+
+  get "contact/contact"
+
+  get "aboutus/about"
+
   get "home/index"
+
+  get "home/aboutus"
+
+  get "home/contact"
+
+  get "home/faq"
 
   # The priority is based upon order of creation:
   # first created -> highest priority.

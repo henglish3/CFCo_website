@@ -1,2 +1,70 @@
-<h1>Hello Rails!</h1>
-<p>Find me in app/views/home/index.html.erb</p>
+<html xmlns = "http://www.w3.org/1999/xhtml">
+<head>
+<title>Clements Fence Company</title>
+</head>
+
+<body>
+
+<script type="text/javascript">
+$(window).load(function() {
+	    $('#slider').nivoSlider();
+});
+</script>
+
+<h1 id="Header">Clements Fence Co</h1>
+<ul id="top-nav-bar">
+    <li><%= link_to "Home", home_index_path %></li>
+    <li><%= link_to "About Us", home_aboutus_path %></li>
+    <li><%= link_to "FAQ", home_faq_path %></li>
+    <li><%= link_to "Gallery", "#" %></li>
+    <li id="lastchild"><%= link_to "Contact", home_contact_path %></li>
+</ul>
+<div id="slider" class="nivoSlider">
+    <img src="images/nemo.jpg" alt="" />
+    <img src="images/toystory.jpg" alt="" />
+    <img src="images/up.jpg" alt="" />
+    <img src="images/walle.jpg" alt="" />
+</div>
+<div class="main">
+<h3>Programming Assignments</h3>    
+<ol>
+<li>
+This is Assignment 1
+</li>
+<li>
+Assignment 2 (<a href="Assignment2.html">Login</a>)
+</li>
+<li>
+Assignment 2 (<a href="Assignment2pt2.html">Form</a>)
+</li>
+<li>
+Assignment 3 (<a href="Assignment3.html">Artistic CSS</a>)
+</li>
+<li>
+Assignment 4 (<a href="Assignment4.html">JavaScript Table</a>)
+</li>
+<li>
+Grade Submit (<a href="gradesubmit.html">Form</a>) to email
+</li>
+<li>
+Grade Submit 2 (<a href="gradesubmit2.html">Form</a>) to database
+</li>
+<li>
+Retrieve Grades  (<a href="password.html">Login</a>)
+</li>
+</ol>
+<ul>
+<li>
+Project 1 (<a href="Project1.html">Game of Life</a>)
+</li>
+<li>
+Project 2 (<a href="project2/">2</a>)
+</li>
+</ul>
+</div>
+<div id="footer">
+    Copyright 2012, Clements Fence Company. Website Design and Hosting by Harrison English, All rights reserved.
+</div>
+</body>
+</html>
+
