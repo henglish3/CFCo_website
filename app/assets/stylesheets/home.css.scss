@@ -13,7 +13,7 @@ body {
 /* Page Header */
 #Header {
     font-weight: normal;
-    background-color: #666;
+    background-color: #FFF;
 	font-size: 60pt;
 	padding: 0;
 	width: 800px;
@@ -42,8 +42,20 @@ li#lastchild {
     background-color: #3366CC;
     color: #FFF;
 }
+
+/*Nivo Slider*/
+#slider {
+    position: relative;
+    width: 618px;
+    height: 246px;
+    margin: 10px auto;
+}
+
 /* Main Text */
 div.main {
+	width: 800px;
+	text-align: left;
+	margin: 0 auto;
     background-color: #3366CC; 
 }
 
@@ -76,13 +88,4 @@ a:hover {
 	text-align: center;  
 	margin: 0; 
 	padding: 0;
-}
-#footer2 {
-    position: relative; 
-    bottom: 0;  
-    height: 31px;
-    width: 100%;
-    text-align: right;  
-    margin: 0; 
-    padding: 0;
 }

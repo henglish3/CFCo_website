@@ -10,7 +10,7 @@ Author URI: http://dev7studios.com
 
 .theme-default .nivoSlider {
 	position:relative;
-	background:#fff url(/assets/loading.gif) no-repeat 50% 50%;
+	background:#666 url(/assets/loading.gif) no-repeat 50% 50%;
     margin-bottom:50px;
     -webkit-box-shadow: 0px 1px 5px 0px #4a4a4a;
     -moz-box-shadow: 0px 1px 5px 0px #4a4a4a;
@@ -30,7 +30,7 @@ Author URI: http://dev7studios.com
 .theme-default .nivo-controlNav {
 	position:absolute;
 	left:50%;
-	bottom:-42px;
+	bottom:0px;
     margin-left:-40px; /* Tweak this to center bullets */
 }
 .theme-default .nivo-controlNav a {
